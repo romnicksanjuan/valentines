@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "CustomFont";
+  src: url("/src/assets/fonts/CustomFont.woff2") format("woff2"),
+       url("/src/assets/fonts/CustomFont.woff") format("woff");
+}
+
+.custom-font {
+  font-family: "CustomFont", Comic Sans MS;
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* Hide scrollbar for IE/Edge */
+  scrollbar-width: none;      /* Hide scrollbar for Firefox */
+}
