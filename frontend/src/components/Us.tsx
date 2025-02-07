@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import{ useState } from 'react'
 import couple_img from '../assets/couple-image.jpg'
 import Message from './Message'
 const Us = () => {

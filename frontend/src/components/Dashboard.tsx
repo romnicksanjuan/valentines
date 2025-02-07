@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import  { useState } from 'react'
 import couple_img from '../assets/couple-image.jpg'
 import Us from './Us'
 import FallingHearts from './FallingHearts'
@@ -12,7 +12,7 @@ const Dashboard = () => {
     return (
 
         <>
-            {/* <FallingHearts /> */}
+            <FallingHearts />
             {isClick ? <Us /> : <div className='bg-white flex justify-center items-center w-full h-screen sm:bg-gray-100 h-screen xl:h-screen'>
 
                 <div className='bg-white w-full h-auto rounded-lg p-5 sm:w-[90%] xl:w-[60%] p-10'>
