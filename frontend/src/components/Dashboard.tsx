@@ -76,9 +76,9 @@ const Dashboard = () => {
             <FallingHearts />
             {isClick ? <Us /> : <div className='bg-gray-100 flex justify-center items-center w-full h-screen sm:bg-gray-100 h-screen xl:h-screen'>
 
-                <div className='bg-white w-[90%] h-auto rounded-lg p-5 sm:w-[90%] lg:w-[80%] xl:w-[60%] xl:h-auto p-10'>
+                <div className='bg-white w-[90%] h-auto py-10 rounded-lg sm:w-[90%] lg:w-[80%] xl:w-[60%] xl:h-auto '>
 
-                    <div className='flex justify-center items-center gap-10 sm:gap-24 xl:flex justify-center items-center'>
+                    <div className='flex justify-center items-center gap-5 sm:gap-24 xl:flex justify-center items-center'>
                         <div className="w-16 h-16 md:w-[80px] md:h-[80px] xl:w-[100px] h-[100px] flex items-center">
                             <img
                                 className="rounded-full h-auto w-full border-2 sm:border-4 border-pink-500"
@@ -121,7 +121,7 @@ const Dashboard = () => {
                     <div className='w-[50%] mx-auto sm:w-[50%]'>
                         <h2 className='
                         custom-font
-                        text-sm 
+                        text-xs
                         text-white
                             bg-pink-500
                             font-bold
@@ -132,7 +132,7 @@ const Dashboard = () => {
                             sm:text-sm xl:text-2xl'
                             onClick={() => handleClick()}>Lori & Nick</h2>
 
-                        <h2 className='mt-10 place-self-center text-2xl'>💞 ❤️ 💞 ❤️</h2>
+                        <h2 className='mt-10 place-self-center text-xl'>💞 ❤️ 💞 ❤️</h2>
                     </div>
 
                 </div>
