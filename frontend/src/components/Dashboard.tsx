@@ -28,7 +28,7 @@ const Dashboard = () => {
 
                         <h2 className='custom-font text-white bg-pink-500 px-5 py-3 text-sm rounded-4xl sm:text-lg md:font-normal xl:text-2xl'>How long have been together ?  </h2>
                     </div>
-                    <h2 className='custom-font text-red-500 text-xl  mt-15 mb-15 place-self-center font-bold sm:text-2xl xl:text-3xl'>1 YEARS & 2 MONTHS</h2>
+                    <h2 className='custom-font text-red-500 text-xl  mt-5 mb-5 place-self-center font-bold sm:text-2xl xl:text-3xl'>1 YEARS & 2 MONTHS</h2>
 
                     <div className='flex justify-center w-[80%] mx-auto '>
                         {/* days */}
@@ -66,7 +66,7 @@ const Dashboard = () => {
                             font-bold
                             place-self-center 
                             px-5 py-2 rounded-3xl
-                            mt-20 cursor-pointer
+                            mt-10 cursor-pointer
                             
                             sm:text-sm xl:text-2xl'
                             onClick={() => handleClick()}>Lori & Nick</h2>

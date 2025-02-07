@@ -15,13 +15,13 @@ const Us = () => {
     return (
         <>
             {isClick ? <Message /> : <div className='bg-gray-100 flex justify-center items-center w-[100%] h-screen'>
-                <div className='bg-white w-full h-auto rounded-lg flex justify-center items-center sm:w-[90%] xl:w-[80%]'>
+                <div className='bg-white w-full h-screen rounded-lg flex justify-center items-center  sm:w-[90%] sm:h-auto   xl:w-[80%]'>
 
                     <div className='w-[90%]'>
                         <h4 className='custom-font text-xl text-pink-500 place-self-center m-5 xl:text-4xl'>You & Me</h4>
 
                         <div className='h-120 overflow-y-auto xl:h-150'>
-                            <div className='grid grid-cols-2 place-items-center gap-5 md:grid-cols-3 xl:grid-cols-4 '>
+                            <div className='grid grid-cols-2 place-items-center gap-5 sm:grid-cols-3 md:grid-cols-3 xl:grid-cols-4 '>
                                 {images.map((image, index) => (
                                     <img className='w-60 h-auto rounded-3xl' key={index} src={image} alt="" />
                                 ))}
