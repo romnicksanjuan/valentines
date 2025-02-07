@@ -87,7 +87,7 @@ const Dashboard = () => {
                             />
                         </div>
 
-                        <h2 className='custom-font text-white bg-pink-500 px-5 py-3 text-sm rounded-4xl sm:text-lg md:font-normal xl:text-2xl'>How long have been together ?  </h2>
+                        <h2 className='custom-font text-white bg-pink-500 px-5 py-3 text-xs rounded-4xl sm:text-lg md:font-normal xl:text-2xl'>How long have been together ?  </h2>
                     </div>
                     <h2 className='custom-font text-red-500 text-xl  mt-5 mb-5 place-self-center font-bold sm:text-2xl xl:text-3xl'>{years} YEARS & {months} MONTHS</h2>
 
