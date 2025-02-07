@@ -73,7 +73,7 @@ const Dashboard = () => {
     return (
 
         <>
-            {/* <FallingHearts /> */}
+            <FallingHearts />
             {isClick ? <Us /> : <div className='bg-gray-100 flex justify-center items-center w-full h-screen sm:bg-gray-100 h-screen xl:h-screen'>
 
                 <div className='bg-white w-[90%] h-auto rounded-lg p-5 sm:w-[90%] lg:w-[80%] xl:w-[60%] xl:h-auto p-10'>
