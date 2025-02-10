@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
 import Us from "./components/Us";
 import Message from "./components/Message";
+import Pin from "./components/Pin";
 
 function App() {
 
@@ -9,9 +10,10 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Dashboard />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/us" element={<Us />} />
           <Route path="/message" element={<Message />} />
+          <Route path="/" element={<Pin />} />
         </Routes>
       </BrowserRouter>
     </>
