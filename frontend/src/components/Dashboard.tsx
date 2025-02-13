@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import us from '../assets/us.jpg'
-import Us from './Us'
 import { useNavigate } from 'react-router-dom'
 
 import FallingHearts from './FallingHearts'
@@ -12,7 +11,6 @@ const Dashboard = () => {
     const [seconds, setSeconds] = useState<number>()
     const [years, setYears] = useState<number>()
     const [months, setMonths] = useState<number>()
-    const [isClick, setIsClick] = useState(false)
 
     const handleClick = () => {
         navigate('/us')

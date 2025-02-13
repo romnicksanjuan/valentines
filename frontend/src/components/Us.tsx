@@ -1,8 +1,6 @@
 import { useEffect } from 'react'
 import { useState } from 'react'
-import couple_img from '../assets/us.jpg'
 import { FaCaretLeft, FaCaretRight } from "react-icons/fa";
-import Message from './Message'
 import { useNavigate } from 'react-router-dom';
 
 // import img1 from '../assets/us/img1.jpg'
