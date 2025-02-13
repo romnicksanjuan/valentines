@@ -20,7 +20,10 @@ const Message = () => {
                 <h2 className="text-xl text-pink-500 place-self-center my-5 custom-font">Happy Valentine's Day</h2>
                 <div className="p-5 border-3 border-pink-500 shadow-lg min-h-100 h-auto w-[90%] rounded-2xl mx-auto">
                     <p className="text-black text-sm custom-font">
-                        Good morning baby🤗❤️, Happy Valentine's Day po🥰 and Happy 2 Years and 11 Months po satin😚❤️, I love you grabee ang tagal na natin, sana mag patuloy pa to at sana magtagal pa tayo, stay strong lang satin palagi🤗❤️,love na love po kita sobraa🥰 wag na tayo mag away palagi,
+                        Good morning baby🤗❤️, Happy Valentine's Day po🥰 and Happy 2 Years and 11 Months po satin😚❤️,
+                        I love you grabee ang tagal na natin,
+                        sana mag patuloy pa to at sana magtagal pa tayo, stay strong lang satin palagi🤗❤️,
+                        love na love po kita sobraa🥰 wag na tayo mag away palagi,
                         enjoyin lang natin tong araw na to na mag kasama🤗, see you po I love you mwaa🤗❤️
                     </p>
                 </div>
