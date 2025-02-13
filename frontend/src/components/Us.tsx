@@ -88,7 +88,7 @@ const Us = () => {
                                 </div>
                             </div>
 
-                            <h4 className='custom-font bg-pink-500 text-md text-white place-self-center m-5 cursor-pointer px-5 py-2 rounded-3xl xl:text-xl' onClick={() => handleClickMessage()}>My Message</h4>
+                            <h4 className='custom-font bg-pink-500 text-sm text-white place-self-center m-5 cursor-pointer px-5 py-2 rounded-3xl xl:text-xl' onClick={() => handleClickMessage()}>My Message</h4>
                         </div>
 
                     </div>
@@ -96,13 +96,13 @@ const Us = () => {
 
 
                     {selectedImage || selectedImage === 0 ?
-                        <div className='absolute flex w-100 h-auto top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black'>
+                        <div className='absolute flex w-[80%] h-auto top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-black'>
                        
-                            < FaCaretLeft className='absolute left-0 top-1/2' onClick={() => handleLeftClick()} size={30} color='black'/>
+                            < FaCaretLeft className='absolute left-0 top-1/2' onClick={() => handleLeftClick()} size={35} color='white'/>
                             <img src={images[selectedImage]} className='w-full h-auto ' alt="" />
-                            < FaCaretRight  className='absolute right-0 top-1/2' onClick={() => handlerighttClick()} size={30} color='black'/>
+                            < FaCaretRight  className='absolute right-0 top-1/2' onClick={() => handlerighttClick()} size={35} color='white'/>
 
-                            <button onClick={() => cancelButton()} className='absolute right-2 top-2 text-black font-bold'>X</button>
+                            <button onClick={() => cancelButton()} className='absolute right-2 top-2 text-md text-black font-bold'>X</button>
                         </div> : ''}
                 </div>
 
